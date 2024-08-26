@@ -6,10 +6,11 @@ print('Welcome to Yolia\'s Dice! <3')
 ## enter what sided dice: select from D3, D4, D6, D8, D10, D10, D12, and D100
 #dicetype = input('What kind of dice would you like to roll?')
 #dicetype = int(dicetype)
+###need to somehow create a dice menu here to select the dice needed
 
-## enter number of dice
-#x = input('How many dice would you like to roll?')
-#diceamount = parse_input(x)
+
+
+
 
 print('How many dice would you like to roll?')
 
@@ -34,3 +35,6 @@ def rollD6(diceamount):
     print('Total Sum: ', totalSum)
 
 rollD6(chosen_num)
+
+print('Would you like to add a dice multiplier?')
+multiplier = int(input('Enter a numerical value: '))
